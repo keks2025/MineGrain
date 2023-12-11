@@ -1,4 +1,4 @@
-<?php
+<?html
 /*
 * @LitePanel 3.0.1
 * @Developed by Dominator!?
@@ -8,19 +8,19 @@ mb_internal_encoding("UTF-8");
 define('ENGINE_DIR', dirname(__FILE__) . '/engine/');
 define('APPLICATION_DIR', dirname(__FILE__) . '/application/');
 
-require_once(ENGINE_DIR . 'main/controller.php');
-require_once(ENGINE_DIR . 'main/model.php');
+require_once(ENGINE_DIR . 'main/controller.html');
+require_once(ENGINE_DIR . 'main/model.html');
 
-require_once(ENGINE_DIR . 'main/registry.php');
-require_once(ENGINE_DIR . 'main/config.php');
-require_once(ENGINE_DIR . 'main/request.php');
-require_once(ENGINE_DIR . 'main/session.php');
-require_once(ENGINE_DIR . 'main/response.php');
-require_once(ENGINE_DIR . 'main/document.php');
-require_once(ENGINE_DIR . 'main/db.php');
-require_once(ENGINE_DIR . 'main/user.php');
-require_once(ENGINE_DIR . 'main/load.php');
-require_once(ENGINE_DIR . 'main/action.php');
+require_once(ENGINE_DIR . 'main/registry.html');
+require_once(ENGINE_DIR . 'main/config.html');
+require_once(ENGINE_DIR . 'main/request.html');
+require_once(ENGINE_DIR . 'main/session.html');
+require_once(ENGINE_DIR . 'main/response.html');
+require_once(ENGINE_DIR . 'main/document.html');
+require_once(ENGINE_DIR . 'main/db.html');
+require_once(ENGINE_DIR . 'main/user.html');
+require_once(ENGINE_DIR . 'main/load.html');
+require_once(ENGINE_DIR . 'main/action.html');
 
 $registry = new Registry();
 
